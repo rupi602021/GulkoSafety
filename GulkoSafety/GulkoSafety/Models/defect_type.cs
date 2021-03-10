@@ -5,12 +5,7 @@ using System.Web;
 
 namespace GulkoSafety.Models
 {
-    public class defect
+    public class defect_type
     {
-        int defects_num;
-        string name;
-        int grade;
-        int defect_type_num;
-
     }
 }
