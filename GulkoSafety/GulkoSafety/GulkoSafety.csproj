@@ -180,8 +180,14 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+<<<<<<< HEAD
     <Content Include="Pages\logo.jpeg" />
     <Content Include="Pages\NewProject.html" />
+=======
+    <Content Include="Pages\index.html" />
+    <Content Include="Pages\photos\logo.jpeg" />
+    <Content Include="Pages\projects.html" />
+>>>>>>> dc14e815a4ce2b50d7573c12efbc5ded77d55bda
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
