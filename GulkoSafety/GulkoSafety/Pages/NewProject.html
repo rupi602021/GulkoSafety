@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>New Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        #main {
+            direction: rtl;
+        }
+        #menu{
+            display:flex;
+            justify-content:space-around;
+            align-items:stretch;
+            height:50px;
+        }
+        .project_name {
+            width: 30%;
+            font-family: 'Lucida Console';
+            color: cadetblue;
+            font-weight: bold;
+            text-align: center;
+        }
+        h3 {
+            font-family: 'Lucida Console';
+            color: cadetblue;
+            font-weight: bold;
+            text-align: right;
+        }
+        h5 {
+            font-family: 'Lucida Console';
+            color: cadetblue;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .safety_level {
+            border: solid 1px;
+            width: 30%;
+            float:left;
+            height:250px;
+        }
+        .project_detail {
+            border: solid 1px;
+            width: 70%;
+            height: 250px;
+        }
+        .alrets {
+            border: solid 1px;
+            width: 30%;
+            float: left;
+            height:200px;
+        }
+        .project_contacts {
+            border: solid 1px;
+            width: 70%;
+            height:200px;
+        }
+        .graf_grades {
+            border: solid 1px;
+            width: 30%;
+            float: left;
+            height:100px;
+        }
+        .reports_list {
+            border: solid 1px;
+            width: 70%;
+            height:100px;
+        }
+        .detail1{
+            float:right;
+        }
+        #btn_close{
+            background-color:cadetblue;
+            color:black;
+            font-weight:bold;
+            margin-right:1300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="menu">
+            <nav navbar navbar-default">
+                <div class="container-fluid">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">הגדרות</a></li>
+                        <li><a href="#">התראות</a></li>
+                        <li><a href="#">סטטיסטיקות</a></li>
+                        <li><a href="#">משתמשים</a></li>
+                        <li><a href="#">הזמנות</a></li>
+                        <li><a href="#">אישורים</a></li>
+                        <li><a href="#">הדרכות</a></li>
+                        <li><a href="#">פרויקטים</a></li>
+                        <li class="active"><a href="#">Home</a></li>
+                    </ul>
+                    <div class="navbar-header">
+                        <img class="logo" src="logo.jpeg" height="50" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <div class="project_name">
+                <h1>פרויקט גורדון</h1>
+
+            </div>
+            <div id="section1">
+                <div class="safety_level">
+                    <h3>רמת הבטיחות בפרויקט</h3>
+                </div>
+                <div class="project_detail">
+                    <h3>פרטי הפרויקט</h3>
+                    <div id="tbl_proj_details">
+
+                    </div>
+                </div>
+            </div>
+            <div id="section2">
+                <div class="alrets">
+                    <h3>הודעות</h3>
+                </div>
+                <div class="project_contacts">
+                    <h3>פרטי אנשי קשר</h3>
+                </div>
+            </div>
+            <div id="section3">
+                <div class="graf_grades">
+                    <h3>ציוני דוחות ביקור</h3>
+                </div>
+                <div class="reports_list">
+                    <h3>דוחות ביקור</h3>
+                </div>
+            </div>
+            <div id="footer">
+                <button id="btn_close">סגור</button>
+
+            </div>
+    </div>
+</body>
+
+</html>
