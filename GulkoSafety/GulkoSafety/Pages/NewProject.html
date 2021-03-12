@@ -82,12 +82,35 @@
         }
 
     </style>
+    <script>
+
+        $(document).ready(function () {
+         
+        })
+
+        for (var k in reslist1) {
+
+            str += '<div class="table_restaurant"><h3>' + reslist1[k].name + '</h3> <p>' + ' ID: ' + " " + reslist1[k].id + '</p>' + '<p>' +
+                'Rating:' + " " + reslist1[k].rating + 'Stars' + '</p>' + '<p>' +
+                'Category:' + " " + reslist1[k].category + '</p>' + '<p>' +
+                'Adsdress:' + " " + reslist1[k].address + '</p>' + '<p>' +
+                'Phone:' + " " + reslist1[k].phone + '</p>' + '</p>' + '<p> Price_Range:' + " ";
+
+
+
+
+
+
+
+
+
+    </script>
 </head>
 <body>
     <div id="main">
         <div id="menu">
-            <nav navbar navbar-default">
-                <div class="container-fluid">
+            <nav dir="rtl" class="navbar navbar-default" style="float:right">
+                <div style="float:right" dir="rtl" class="container-fluid">
 
                     <ul class="nav navbar-nav">
                         <li><a href="#">הגדרות</a></li>
@@ -100,8 +123,9 @@
                         <li><a href="#">פרויקטים</a></li>
                         <li class="active"><a href="#">Home</a></li>
                     </ul>
+
                     <div class="navbar-header">
-                        <img class="logo" src="logo.jpeg" height="50" />
+                        <img class="logo" src="photos/logo.jpeg" height="50" />
                     </div>
                 </div>
             </nav>
